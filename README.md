@@ -22,3 +22,7 @@ MATLAB에서 원하는 실험 폴더로 이동해 `script`를 실행합니다. L
 현재 환경에는 MATLAB/Octave와 Arduino toolchain이 없어 해당 도구의 재컴파일·실기기 구동은 확인하지 않았습니다. 소스·파일 구조를 점검했으며 새 실기기 성공률이나 측정 결과는 제시하지 않습니다.
 
 Arduino 코드는 `Ultrasonic.h`의 `Ultrasonic(trigger, echo)`·`distanceRead()` API를 사용합니다. 이 API를 제공하는 라이브러리를 설치해야 합니다. 센서 trigger/echo 핀은 13/12, 11/10, 9/8이고 좌우 모터 드라이버 입력은 7/6, 5/4입니다.
+
+## 시연 자료
+
+[2018 Arduino 로봇청소기 시연](https://drive.google.com/file/d/11UY_fbOLHmjJ5oGViqylE3oVhj3N_lSz/view)에서 제작물의 주행을 볼 수 있습니다. 당시 보관 영상 원본과 동일한 공개 사본이며 이번에 실기기를 다시 구동한 영상은 아닙니다. 조교의 YouTube 게시본과 동일한 파일인지는 확인되지 않았습니다.
