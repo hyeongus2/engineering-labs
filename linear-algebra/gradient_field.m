@@ -1,0 +1,12 @@
+x = -2 : .1 : 2;
+y = -2 : .1 : 2;
+[X, Y] = meshgrid(x,y);
+Z = X.^2 + Y.^2 - 5*sin(X.*Y);
+[dZ_dx, dZ_dy] = gradient(Z, 0.2, 0.2);
+figure;  axis equal;
+contour(X, Y, Z, 10);
+hold on;
+quiver(X, Y, dZ_dx, dZ_dy);
+hold off;
+xlabel('x'); ylabel('y');
+title('Problem 1b : The contours and gradient plots of z = x^2 + y^2 - 5sin(xy)');

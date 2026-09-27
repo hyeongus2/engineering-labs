@@ -10,6 +10,7 @@
 | `circuits/` | RC/RL/RLC·필터·오디오 증폭 회로의 응답 측정과 분석 (2026) | 실험 보고서, 측정표·파형 |
 | `information-theory/lz77/` | LZ77 encoding/decoding과 압축률 실험 (2021) | MATLAB 구현 |
 | `information-theory/channel-coding/` | 코드워드 생성, binary symmetric channel, 복호·오류율 실험 (2021) | MATLAB 구현 |
+| [`linear-algebra/`](linear-algebra/README.md) | 다변수 함수의 등고선·gradient 벡터장 시각화 (2018) | MATLAB 예제 |
 
 ## Arduino 실행
 
